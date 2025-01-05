@@ -122,3 +122,42 @@ footer a {
 footer a:hover {
   color: #ffffff;
 }
+
+@media (max-width: 768px) {
+  body {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  section#telefone {
+    height: 300px;
+    width: 150px;
+  }
+
+  iframe#tela {
+    top: 40px;
+    left: 10px;
+    width: 130px;
+    height: 200px;
+  }
+
+  section#redes-sociais {
+    position: fixed;
+    top: 50%;
+    right: 1rem;
+    transform: translateY(-50%);
+    gap: 1.5rem;
+  }
+
+  #redes-sociais img {
+    width: 50px;
+    height: 50px;
+  }
+
+  footer {
+    font-size: 0.9rem;
+  }
+}
