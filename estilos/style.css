@@ -117,6 +117,9 @@ footer a:hover {
   section#telefone {
     height: 350px;
     width: 175px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   iframe#tela {
@@ -140,6 +143,9 @@ footer a:hover {
   section#telefone {
     height: 300px;
     width: 150px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   iframe#tela {
