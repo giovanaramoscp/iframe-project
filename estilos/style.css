@@ -124,14 +124,34 @@ footer a:hover {
 }
 
 @media (max-width: 768px) {
-  body {
-    padding: 1rem;
+  section#telefone {
+    height: 350px;
+    width: 175px;
+  }
+
+  iframe#tela {
+    top: 45px;
+    left: 12px;
+    width: 150px;
+    height: 260px;
+  }
+
+  section#redes-sociais {
+    right: 1rem;
+    gap: 1rem;
+  }
+
+  #redes-sociais img {
+    width: 50px;
+    height: 50px;
   }
 
   h1 {
     font-size: 1.5rem;
   }
+}
 
+@media (max-width: 480px) {
   section#telefone {
     height: 300px;
     width: 150px;
@@ -141,23 +161,15 @@ footer a:hover {
     top: 40px;
     left: 10px;
     width: 130px;
-    height: 200px;
-  }
-
-  section#redes-sociais {
-    position: fixed;
-    top: 50%;
-    right: 1rem;
-    transform: translateY(-50%);
-    gap: 1.5rem;
+    height: 230px;
   }
 
   #redes-sociais img {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
   }
 
-  footer {
-    font-size: 0.9rem;
+  h1 {
+    font-size: 1.2rem;
   }
 }
