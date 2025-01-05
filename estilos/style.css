@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("../imagens/fundo-madeira.jpg") no-repeat top center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 1.5rem;
+  overflow: hidden;
+}
+
+main {
+  position: relative;
+  height: 90vh;
+  flex: 1;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  color: #ffffff;
+  transition: transform 0.2s, color 0.2s;
+}
+
+h1:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+section#telefone {
+  height: 470px;
+  width: 233px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: url("../imagens/iphone.png") no-repeat;
+  transform: translate(-50%, -50%);
+}
+
+iframe#tela {
+  position: relative;
+  top: 61px;
+  left: 17px;
+  width: 200px;
+  height: 352px;
+}
+
+section#redes-sociais {
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 50%;
+  right: 2rem;
+  gap: 2rem;
+}
+
+#redes-sociais a {
+  font-size: 2rem;
+  margin: 2rem;
+  color: #ffffff;
+  text-decoration: none;
+  transition: transform 0.2s, color 0.2s;
+}
+
+#redes-sociais ul {
+  list-style: none;
+}
+
+#redes-sociais img {
+  width: 60px;
+  height: 60px;
+}
+
+#redes-sociais img:hover {
+  padding: 0.3rem;
+  transform: scale(1.1);
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px #0000005b;
+  background: #ffffffda;
+  cursor: pointer;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 0.2rem;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background: #ffffff69;
+  color: #000000;
+  z-index: 1000;
+}
+
+label {
+  margin: 0;
+}
+
+footer a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+
+footer a:hover {
+  color: #ffffff;
+}
