@@ -110,16 +110,15 @@ footer a:hover {
 }
 
 @media (max-width: 768px) {
-  h1 {
-    font-size: 1.8rem;
-  }
-
   section#telefone {
     height: 350px;
     width: 175px;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background: url("../imagens/iphone.png") no-repeat;
+    background-size: contain;
   }
 
   iframe#tela {
@@ -128,24 +127,18 @@ footer a:hover {
     width: 150px;
     height: 260px;
   }
-
-  section#redes-sociais {
-    right: 1rem;
-    gap: 1rem;
-  }
 }
 
 @media (max-width: 480px) {
-  h1 {
-    font-size: 1.5rem;
-  }
-
   section#telefone {
     height: 300px;
     width: 150px;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background: url("../imagens/iphone.png") no-repeat;
+    background-size: contain;
   }
 
   iframe#tela {
@@ -153,10 +146,5 @@ footer a:hover {
     left: 10px;
     width: 130px;
     height: 230px;
-  }
-
-  #redes-sociais img {
-    width: 50px;
-    height: 50px;
   }
 }
