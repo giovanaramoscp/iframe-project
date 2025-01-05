@@ -44,6 +44,7 @@ section#telefone {
   top: 50%;
   left: 50%;
   background: url("../imagens/iphone.png") no-repeat;
+  background-size: contain;
   transform: translate(-50%, -50%);
 }
 
@@ -62,15 +63,7 @@ section#redes-sociais {
   position: fixed;
   top: 50%;
   right: 2rem;
-  gap: 2rem;
-}
-
-#redes-sociais a {
-  font-size: 2rem;
-  margin: 2rem;
-  color: #ffffff;
-  text-decoration: none;
-  transition: transform 0.2s, color 0.2s;
+  gap: 1rem;
 }
 
 #redes-sociais ul {
@@ -80,6 +73,7 @@ section#redes-sociais {
 #redes-sociais img {
   width: 60px;
   height: 60px;
+  transition: transform 0.2s, background 0.2s;
 }
 
 #redes-sociais img:hover {
@@ -97,19 +91,11 @@ footer {
   left: 0;
   width: 100%;
   text-align: center;
-  padding: 0.2rem;
-  font-size: 1rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
+  padding: 0.5rem;
+  font-size: 0.9rem;
   background: #ffffff69;
   color: #000000;
   z-index: 1000;
-}
-
-label {
-  margin: 0;
 }
 
 footer a {
@@ -123,6 +109,7 @@ footer a:hover {
   color: #ffffff;
 }
 
+/* Responsividade */
 @media (max-width: 768px) {
   section#telefone {
     height: 350px;
