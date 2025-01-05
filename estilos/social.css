@@ -24,3 +24,16 @@ a {
 a:hover {
   background: blue;
 }
+
+@media (max-width: 768px) {
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+
+  a {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+}
