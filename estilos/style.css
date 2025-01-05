@@ -127,11 +127,6 @@ footer a:hover {
     width: 150px;
     height: 260px;
   }
-
-  section#redes-sociais img {
-    width: 40px;
-    height: 40px;
-  }
 }
 
 @media (max-width: 480px) {
@@ -151,10 +146,5 @@ footer a:hover {
     left: 10px;
     width: 130px;
     height: 230px;
-  }
-
-  section#redes-sociais img {
-    width: 30px;
-    height: 30px;
   }
 }
