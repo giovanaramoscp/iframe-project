@@ -130,11 +130,6 @@ footer a:hover {
     right: 1rem;
     gap: 1rem;
   }
-
-  #redes-sociais img {
-    width: 50px;
-    height: 50px;
-  }
 }
 
 @media (max-width: 480px) {
@@ -155,7 +150,7 @@ footer a:hover {
   }
 
   #redes-sociais img {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
   }
 }
